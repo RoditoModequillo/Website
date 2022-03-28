@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>  
+<style>
+body {font-family:courier}  /* Internal Css Style */
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: red;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+nav{
+  position: absolute;
+  background:black;
+  width: 100%;
+  border-radius:10px;
+}
+img{
+   margin-left:40px;
+   height:50px;
+   width:60px;
+   border-radius:10px;
+}
+</style>
+</head>
+<body>
+<h3>Contact Form</h3>
+    <!-- Html Google form-->
+<div class="container">
+  <form action="response.html">
+    <label for="lname"><b>Last Name</b></label>
+    <input type="text" id="lname" name="lastname">
+
+    <label for="rname"><b>First Name</b></label>
+    <input type="text" id="fname" name="firstname">
+    
+    <label for="mname"><b>Middle Name</b></label>
+    <input type="text" id="mname" name="middlename">
+
+  <label for="birthday"><b>Birthday</b></label>
+  <input type="date" id="birthday" name="birthday"><br>
+  
+  <label for="cnumber"><b>Contact Number</b></label>
+  <input type="text" id="cnumber" name="contactnumber">
+  
+  <label for="email"><b>Email Address</b></label>
+  <input type="text" id="email" name="emailaddress">
+  
+    <label for="country"><b>Country</b></label>
+    <select id="country" name="country">
+      <option value="australia">Philippines</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="usa">Korea</option>
+      <option value="usa">Japan</option>
+    </select>
+<label for="subject"><b>Subject</b></label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<center>
+    <nav>
+     <ul>
+     <a href="https://web.facebook.com/rodito.modequillo.73/">
+     <img alt="facebook" src="/storage/emulated/0/Html/images/fb.jpeg"> </a>
+     
+     <a href="https://www.instagram.com/">
+     <img alt="Instagram" src="/storage/emulated/0/Html/images/insta.png"> </a>
+     
+     <a href="roditomodequillo4400@gmail.com">
+     <img alt="Gmail" src="/storage/emulated/0/Html/images/gmail.png"> </a>
+     
+     <a href="https://mobile.twitter.com/login?lang=en-gb">
+     <img alt="Twitter" src="/storage/emulated/0/Html/images/tweet.jpeg"> </a>
+     
+     <a href="/storage/emulated/0/Html/images/fb.jpeg">
+     <img alt="#" src="/storage/emulated/0/Html/images/whatsapp.png"> </a>
+     </ul>
+    </nav>
+   </center>
+    
+</body>
+</html>

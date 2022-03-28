@@ -1,0 +1,51 @@
+body{
+     background-color:gray;    /* Background body style */
+}
+     /* header 1 styles */
+h1{
+  font-family:courier;     
+  
+}
+    /* Styles for font paragraph */
+p{
+  font-family:courier;
+}
+
+ /* Styles for div class O */
+.O{
+  font-family:Ariel;
+  color:white;
+}
+  /* Styles for div classes A, B, C  */
+.A{
+   color:white;
+   border:2px white;
+   width:50%;
+   margin-top:50px;
+   background-image:url('/storage/emulated/0/Html/images/Ako.jpeg');
+   text-align:center;
+}
+.B{
+   color:white;
+   border:2px white;
+   width:50%;
+   margin-top:50px;
+   background-image:url('/storage/emulated/0/Html/images/Ako.jpeg');
+   text-align:center;
+}
+.C{
+   color:white;
+   border:2px white;
+   width:50%;
+   margin-top:50px;
+   background-image:url('/storage/emulated/0/Html/images/Ako.jpeg');
+   text-align:center;
+}
+span.a {
+  display: inline; /* the default for span */
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;  
+  background-color: yellow; 
+}
