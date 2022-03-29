@@ -1,5 +1,5 @@
 body{
-  background-image:url(https://github.com/RoditoModequillo/Website/blob/83e090bf84b2f2af395c69a5ff7214ca567a5446/Katol.jpg);
+  background-image:url("Katol.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size:cover;
