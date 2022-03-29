@@ -22,7 +22,7 @@ p{
    border:2px white;
    width:50%;
    margin-top:50px;
-   background-image:url('../storage/emulated/0/Html/images/Ako.jpeg');
+   background-image:url("Ako.jpeg");
    text-align:center;
 }
 .B{
@@ -30,7 +30,7 @@ p{
    border:2px white;
    width:50%;
    margin-top:50px;
-   background-image:url('../storage/emulated/0/Html/images/Ako.jpeg');
+   background-image:url("Ako.jpeg");
    text-align:center;
 }
 .C{
@@ -38,7 +38,7 @@ p{
    border:2px white;
    width:50%;
    margin-top:50px;
-   background-image:url('../storage/emulated/0/Html/images/Ako.jpeg');
+   background-image:url("Ako.jpeg");
    text-align:center;
 }
 span.a {
